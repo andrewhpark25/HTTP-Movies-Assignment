@@ -61,8 +61,33 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+.update-button {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: grey;
+}
+
+.remove-button {
+  position: absolute;
+  top: 25px;
+  right: 190px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: red;
+}
 .save-button:hover {
   background-color: green;
+  color: white;
+}
+.update-button:hover {
+color:white;
+}
+
+.remove-button:hover {
+
   color: white;
 }
 
